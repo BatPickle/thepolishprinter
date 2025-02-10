@@ -1,0 +1,63 @@
+body {
+    background-image: url("backgroundHome.png");
+    background-repeat: no-repeat;
+    background-color: rgb(57, 57, 57);
+}
+
+nav {
+    border: none;
+    border-radius: 10px;
+    background-color: #780000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+}
+
+li a:hover {
+    background-color: #111;
+  }
+
+.navMain {
+    float: left;
+    display: block;
+    padding: 20px;
+
+}
+
+#navSearch {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    background-color: grey;
+
+}
+
+nav ul img{
+    width: 220px;
+    display: inline;
+    margin-left: 250px;
+}
