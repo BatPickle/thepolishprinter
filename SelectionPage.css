@@ -8,7 +8,7 @@ body {
 }
 
 #topBarSpace{
-    margin-bottom: 20%;
+    margin-bottom: 10vh;
 }
 
 #centralArea{
@@ -26,17 +26,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid #000000;
-    border-radius: 25px;
+    border: .5vh solid #000000;
+    border-radius: 5vh;
     background-color: #ffff;
-    height: 20%;
-    width: 65%;
-    box-shadow: 10px 10px 0 #000000;
+    height: 20vh;
+    width: 35vh;
+    box-shadow: 1vh 1vh 0 #000000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
-    font-size: 2rem;
+    font-size: 6vh;
     color: #8c2628;
     font-weight: bold;
-    text-shadow: 4px 4px 8px #644242;
+    text-shadow: 1.2vh 1.2vh 1.5vh #644242;
 }
 
 .boxes:hover{
