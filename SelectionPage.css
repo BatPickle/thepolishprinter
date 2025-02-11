@@ -5,7 +5,10 @@ body {
     background-position: center;
     height: 20vh;
     margin: 0;
-    background-color: #edede9;
+}
+
+#topBarSpace{
+    margin-bottom: 20%;
 }
 
 #centralArea{
@@ -16,9 +19,30 @@ body {
     align-items: center;
     border: 2px solid black;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .boxes{
     display: flex;
-    border: 2px solid blue;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #000000;
+    border-radius: 25px;
+    background-color: #ffff;
+    height: 20%;
+    width: 65%;
+    box-shadow: 10px 10px 0 #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    font-size: 2rem;
+    color: #8c2628;
+    font-weight: bold;
+    text-shadow: 4px 4px 8px #644242;
+}
+
+.boxes:hover{
+    background-color: #bfc0c0;
+}
+
+.boxes:active{
+    background-color: #393d3f;
 }
