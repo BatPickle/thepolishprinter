@@ -1,0 +1,41 @@
+body {
+    background-image: url("TPP_Banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh;
+    margin: 0;
+}
+
+#topBarSpace{
+    margin-bottom: 25vh;
+}
+
+#centralArea{
+    display: flex 1 1 0;
+    justify-items: center;
+    align-items: center;
+    border: 2px solid black;
+    justify-content: center;
+}
+
+.eachSection{
+    border: 2px solid black;
+    display: flex;
+    height: 20vh;
+    width: 40vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+    row-gap: 1em;
+    margin-left: 22px;
+    justify-content: center;
+    align-content: center;
+}
+
+.boxes{
+    height: 9vh;
+    width: 9vh;
+    background-color: grey;
+    border-radius: 15px;
+}
