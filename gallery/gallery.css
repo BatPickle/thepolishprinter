@@ -5,37 +5,59 @@ body {
     background-position: center;
     height: 20vh;
     margin: 0;
+    border: 1px solid white;
 }
 
 #topBarSpace{
     margin-bottom: 25vh;
 }
 
+.topSpacer{
+    margin-bottom: 5vh;
+}
+
+.eachSectionTitle{
+    font-size: 5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    font-weight: bold;
+}
+
 #centralArea{
     display: flex 1 1 0;
     justify-items: center;
     align-items: center;
-    border: 2px solid black;
+    /* border: 1px solid black; */
     justify-content: center;
 }
 
 .eachSection{
-    border: 2px solid black;
     display: flex;
-    height: 20vh;
-    width: 40vh;
+    height: 40vh;
+    width: 45vh;
     flex-wrap: wrap;
     align-content: flex-start;
     column-gap: 1em;
     row-gap: 1em;
-    margin-left: 22px;
     justify-content: center;
     align-content: center;
 }
 
 .boxes{
-    height: 9vh;
-    width: 9vh;
+    height: 18vh;
+    width: 14vh;
     background-color: grey;
     border-radius: 15px;
+}
+
+.photoArea{
+    height: 14vh;
+}
+
+.titleArea{
+    display: flex;
+    height: 4vh;
+    background-color: rgb(196, 196, 196);
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
 }
