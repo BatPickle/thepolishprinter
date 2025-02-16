@@ -51,13 +51,14 @@ body {
 
 .photoArea{
     height: 14vh;
+    width: 14vh;
 }
 
 .titleArea{
     display: flex;
     height: 4vh;
     background-color: rgb(196, 196, 196);
-    font-size: 3rem;
+    font-size: 2.8rem;
     align-items: center;
     justify-content: center;
 }
