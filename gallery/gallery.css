@@ -6,6 +6,7 @@ body {
     height: 20vh;
     margin: 0;
     border: 1px solid white;
+    background-color: #f2f2f2;
 }
 
 #topBarSpace{
@@ -13,7 +14,7 @@ body {
 }
 
 .topSpacer{
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
 }
 
 .eachSectionTitle{
@@ -57,8 +58,8 @@ body {
 .titleArea{
     display: flex;
     height: 4vh;
-    background-color: rgb(196, 196, 196);
-    font-size: 2.8rem;
+    background-color: #8b8c89;
+    font-size: 2.5rem;
     align-items: center;
     justify-content: center;
 }
